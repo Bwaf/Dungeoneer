@@ -1,3 +1,5 @@
 body {
     text-align: center;
+    margin: 0; /* Remove default browser margin */
+    padding: 20px;
 }
