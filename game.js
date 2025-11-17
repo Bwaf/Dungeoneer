@@ -18,12 +18,8 @@ function gameLoop() {
     // Clear canvas
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-    // Fill background gray
-    ctx.fillStyle = "gray";
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
-
     // Example: draw moving square
-    ctx.fillStyle = "green";
+    ctx.fillStyle = "red";
     ctx.fillRect(x, y, 50, 50);
 
     // Update position
