@@ -22,7 +22,7 @@ function gameLoop() {
     ctx.fillStyle = "gray";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    // Update position based on keys
+    // Movement
     if (keys["ArrowUp"]) y -= speed;
     if (keys["ArrowDown"]) y += speed;
     if (keys["ArrowLeft"]) x -= speed;
