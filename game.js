@@ -29,7 +29,7 @@ function gameLoop() {
     if (keys["ArrowRight"]) x += speed;
 
     // Draw red square
-    ctx.fillStyle = "red";
+    ctx.fillStyle = "blue";
     ctx.fillRect(x, y, 50, 50);
 
     requestAnimationFrame(gameLoop);
