@@ -23,10 +23,10 @@ function gameLoop() {
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     // Movement
-    if (keys["ArrowUp"]) y -= speed;
-    if (keys["ArrowDown"]) y += speed;
-    if (keys["ArrowLeft"]) x -= speed;
-    if (keys["ArrowRight"]) x += speed;
+    if (keys["W"]) y -= speed;
+    if (keys["D"]) y += speed;
+    if (keys["S"]) x -= speed;
+    if (keys["A"]) x += speed;
 
     // Draw red square
     ctx.fillStyle = "blue";
