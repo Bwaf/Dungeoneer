@@ -24,9 +24,9 @@ function gameLoop() {
 
     // Movement
     if (keys["w"]) y -= speed;
-    if (keys["d"]) y += speed;
-    if (keys["s"]) x -= speed;
-    if (keys["a"]) x += speed;
+    if (keys["s"]) y += speed;
+    if (keys["a"]) x -= speed;
+    if (keys["d"]) x += speed;
 
     // Draw red square
     ctx.fillStyle = "blue";
